@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Diaper Math - app</title>
+<style>
+  :root { --accent:#a85d2a; --ink:#2e1c0f; --paper:#f7f0e8; --soft:#f0e2d2; }
+  * { box-sizing:border-box; margin:0; }
+  body { font-family:Georgia, "Times New Roman", serif; background:var(--paper); color:var(--ink); line-height:1.55; }
+  main { max-width:660px; margin:0 auto; }
+  .boundary { background:#fdeaea; border-left:6px solid #b03030; color:#5c1c1c; border-radius:6px; padding:1rem 1.1rem; }
+  .boundary strong { display:block; margin-bottom:.3rem; }
+  body { padding:2rem 1.2rem; }
+  h1 { font-size:1.8rem; color:var(--accent); }
+  .boundary { margin:1rem 0 1.4rem; }
+  .panel { background:var(--soft); border-left:5px solid var(--accent); border-radius:6px; padding:1rem 1.1rem; margin-bottom:1.1rem; }
+  h2 { font-size:1.1rem; margin-bottom:.6rem; }
+  p.note { font-size:.9rem; margin-bottom:.4rem; }
+  label { display:block; font-size:.9rem; margin:.45rem 0 .1rem; }
+  input { width:100%; padding:.45rem .55rem; font-size:1rem; border:1px solid #d9b891; border-radius:6px; background:#fff; color:var(--ink); font-family:inherit; }
+  .row2 { display:grid; grid-template-columns:1fr 1fr; gap:.6rem; }
+  .out { margin-top:.7rem; font-size:.98rem; background:#fff; border:1px dashed #d9b891; border-radius:6px; padding:.6rem .7rem; min-height:2.4rem; overflow-wrap:anywhere; }
+  .out.err { border-color:#b03030; color:#8a1f1f; }
+  footer { margin-top:1.8rem; font-size:.85rem; color:#b08a64; }
+  a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Diaper Math</h1>
+  <div class="boundary">
+    <strong>Boundary: arithmetic only</strong>
+    This page plans a diaper supply with addition and calendar counting: when the weight reaches the next size line, the diapers that takes, the packs to buy with what they cost, and the size-up date. It uses no named constants. The weight, the weekly gain, the size line, the pace, the pack and its price are yours to enter from your own scale and your own store. It applies the counting as written, so it has not seen your baby, your scale or your store and does not know whether the gain will hold, a size truly fits or the price will stay, and it gives no verdict that a weight is healthy or a size is right. Every number here is your own entry.
+  </div>
+
+  <div class="panel">
+    <h2>The baby</h2>
+    <p class="note">Weight and gain in grams. The size line is where the next size starts.</p>
+    <div class="row2">
+      <div><label for="cur">Current weight (grams)</label><input id="cur" type="text" value="6200"></div>
+      <div><label for="gain">Weekly gain (grams)</label><input id="gain" type="text" value="150"></div>
+    </div>
+    <div class="row2">
+      <div><label for="line">Next size starts at (grams)</label><input id="line" type="text" value="8000"></div>
+      <div><label for="start">Start date</label><input id="start" type="text" value="2026-10-24"></div>
+    </div>
+  </div>
+  <div class="panel">
+    <h2>The supply</h2>
+    <p class="note">The daily pace, the pack and its price in cents.</p>
+    <div class="row2">
+      <div><label for="per">Diapers a day</label><input id="per" type="text" value="8"></div>
+      <div><label for="pack">Diapers per pack</label><input id="pack" type="text" value="44"></div>
+    </div>
+    <label for="price">Pack price (cents)</label><input id="price" type="text" value="1150">
+  </div>
+  <div class="panel">
+    <h2>The size truth</h2>
+    <p class="note">Size: the weeks and days until the weight reaches the line.</p>
+    <div class="out" id="s-out"></div>
+  </div>
+  <div class="panel">
+    <h2>The diapers truth</h2>
+    <p class="note">Diapers: the daily pace multiplied by those days.</p>
+    <div class="out" id="d-out"></div>
+  </div>
+  <div class="panel">
+    <h2>The packs truth</h2>
+    <p class="note">Packs: the count, what the last pack holds, the cost and the price of one diaper.</p>
+    <div class="out" id="p-out"></div>
+  </div>
+  <div class="panel">
+    <h2>The date truth</h2>
+    <p class="note">Date: the start date plus those days.</p>
+    <div class="out" id="t-out"></div>
+  </div>
+
+  <footer>Diaper Math is exact arithmetic over the numbers you enter. <a href="index.html">Why it exists</a>.</footer>
+</main>
+<script src="engine.js"></script>
+<script>
+  function show(id, fn) {
+    const out = document.getElementById(id);
+    try { out.textContent = fn(); out.classList.remove("err"); }
+    catch (e) { out.textContent = e.message; out.classList.add("err"); }
+  }
+  function val(id) { return document.getElementById(id).value; }
+  function recalc() {
+    show("s-out", () => sizeTruth(val("cur"), val("gain"), val("line")));
+    show("d-out", () => diapersTruth(val("cur"), val("gain"), val("line"), val("per")));
+    show("p-out", () => packsTruth(val("cur"), val("gain"), val("line"), val("per"), val("pack"), val("price")));
+    show("t-out", () => dateTruth(val("start"), val("cur"), val("gain"), val("line")));
+  }
+  document.querySelectorAll("input").forEach((el) => {
+    el.addEventListener("input", recalc);
+    el.addEventListener("change", recalc);
+  });
+  recalc();
+</script>
+</body>
+</html>
