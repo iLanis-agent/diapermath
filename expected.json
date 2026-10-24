@@ -1,0 +1,1257 @@
+{
+ "cases": [
+  {
+   "fn": "size",
+   "args": [
+    "6200",
+    "150",
+    "8000"
+   ],
+   "expect": "The 6200-gram baby at 150 grams a week reaches the 8000-gram size line in 12 weeks and 0 days."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "6200",
+    "150",
+    "8000",
+    "8"
+   ],
+   "expect": "At 8 diapers a day, the 84 days take 672 diapers."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "6200",
+    "150",
+    "8000",
+    "8",
+    "44",
+    "1150"
+   ],
+   "expect": "The 672 diapers make 16 packs of 44, the last pack holding 12 diapers, costing $184.00, $0.27 a diaper."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2026-10-24",
+    "6200",
+    "150",
+    "8000"
+   ],
+   "expect": "Starting 2026-10-24, the size line lands on 2027-01-16, a Saturday."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "6993",
+    "7",
+    "7000"
+   ],
+   "expect": "The 6993-gram baby at 7 grams a week reaches the 7000-gram size line in 1 week and 0 days."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "6990",
+    "70",
+    "7000"
+   ],
+   "expect": "The 6990-gram baby at 70 grams a week reaches the 7000-gram size line in 0 weeks and 1 day."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "6990",
+    "10",
+    "7000"
+   ],
+   "expect": "The 6990-gram baby at 10 grams a week reaches the 7000-gram size line in 1 week and 0 days."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "1000",
+    "1",
+    "1001"
+   ],
+   "expect": "The 1000-gram baby at 1 gram a week reaches the 1001-gram size line in 1 week and 0 days."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "19999",
+    "1000",
+    "20001"
+   ],
+   "expect": "The 19999-gram baby at 1000 grams a week reaches the 20001-gram size line in 0 weeks and 1 day."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "3400",
+    "180",
+    "5200"
+   ],
+   "expect": "The 3400-gram baby at 180 grams a week reaches the 5200-gram size line in 10 weeks and 0 days."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "4500",
+    "200",
+    "9000"
+   ],
+   "expect": "The 4500-gram baby at 200 grams a week reaches the 9000-gram size line in 22 weeks and 4 days."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "8000",
+    "250",
+    "13000"
+   ],
+   "expect": "The 8000-gram baby at 250 grams a week reaches the 13000-gram size line in 20 weeks and 0 days."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "11000",
+    "300",
+    "17000"
+   ],
+   "expect": "The 11000-gram baby at 300 grams a week reaches the 17000-gram size line in 20 weeks and 0 days."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "2900",
+    "90",
+    "3400"
+   ],
+   "expect": "The 2900-gram baby at 90 grams a week reaches the 3400-gram size line in 5 weeks and 4 days."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "5000",
+    "167",
+    "6400"
+   ],
+   "expect": "The 5000-gram baby at 167 grams a week reaches the 6400-gram size line in 8 weeks and 3 days."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "7200",
+    "165",
+    "10000"
+   ],
+   "expect": "The 7200-gram baby at 165 grams a week reaches the 10000-gram size line in 17 weeks and 0 days."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "9200",
+    "210",
+    "12500"
+   ],
+   "expect": "The 9200-gram baby at 210 grams a week reaches the 12500-gram size line in 15 weeks and 5 days."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "3000",
+    "100",
+    "5000"
+   ],
+   "expect": "The 3000-gram baby at 100 grams a week reaches the 5000-gram size line in 20 weeks and 0 days."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "6000",
+    "175",
+    "9500"
+   ],
+   "expect": "The 6000-gram baby at 175 grams a week reaches the 9500-gram size line in 20 weeks and 0 days."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "1500",
+    "50",
+    "3000"
+   ],
+   "expect": "The 1500-gram baby at 50 grams a week reaches the 3000-gram size line in 30 weeks and 0 days."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "12500",
+    "400",
+    "18000"
+   ],
+   "expect": "The 12500-gram baby at 400 grams a week reaches the 18000-gram size line in 13 weeks and 6 days."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "4100",
+    "130",
+    "6000"
+   ],
+   "expect": "The 4100-gram baby at 130 grams a week reaches the 6000-gram size line in 14 weeks and 5 days."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "5500",
+    "190",
+    "8200"
+   ],
+   "expect": "The 5500-gram baby at 190 grams a week reaches the 8200-gram size line in 14 weeks and 2 days."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "6800",
+    "220",
+    "11000"
+   ],
+   "expect": "The 6800-gram baby at 220 grams a week reaches the 11000-gram size line in 19 weeks and 1 day."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "2000",
+    "60",
+    "3500"
+   ],
+   "expect": "The 2000-gram baby at 60 grams a week reaches the 3500-gram size line in 25 weeks and 0 days."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "10500",
+    "350",
+    "15000"
+   ],
+   "expect": "The 10500-gram baby at 350 grams a week reaches the 15000-gram size line in 12 weeks and 6 days."
+  },
+  {
+   "fn": "size",
+   "args": [
+    "8800",
+    "275",
+    "14000"
+   ],
+   "expect": "The 8800-gram baby at 275 grams a week reaches the 14000-gram size line in 19 weeks and 0 days."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "6993",
+    "7",
+    "7000",
+    "1"
+   ],
+   "expect": "At 1 diaper a day, the 7 days take 7 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "6993",
+    "7",
+    "7000",
+    "5"
+   ],
+   "expect": "At 5 diapers a day, the 7 days take 35 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "6990",
+    "70",
+    "7000",
+    "9"
+   ],
+   "expect": "At 9 diapers a day, the 1 day takes 9 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "3400",
+    "180",
+    "5200",
+    "6"
+   ],
+   "expect": "At 6 diapers a day, the 70 days take 420 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "4500",
+    "200",
+    "9000",
+    "10"
+   ],
+   "expect": "At 10 diapers a day, the 158 days take 1580 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "8000",
+    "250",
+    "13000",
+    "7"
+   ],
+   "expect": "At 7 diapers a day, the 140 days take 980 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "11000",
+    "300",
+    "17000",
+    "12"
+   ],
+   "expect": "At 12 diapers a day, the 140 days take 1680 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "2900",
+    "90",
+    "3400",
+    "4"
+   ],
+   "expect": "At 4 diapers a day, the 39 days take 156 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "5000",
+    "167",
+    "6400",
+    "8"
+   ],
+   "expect": "At 8 diapers a day, the 59 days take 472 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "7200",
+    "165",
+    "10000",
+    "30"
+   ],
+   "expect": "At 30 diapers a day, the 119 days take 3570 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "9200",
+    "210",
+    "12500",
+    "11"
+   ],
+   "expect": "At 11 diapers a day, the 110 days take 1210 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "3000",
+    "100",
+    "5000",
+    "2"
+   ],
+   "expect": "At 2 diapers a day, the 140 days take 280 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "6000",
+    "175",
+    "9500",
+    "9"
+   ],
+   "expect": "At 9 diapers a day, the 140 days take 1260 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "1500",
+    "50",
+    "3000",
+    "3"
+   ],
+   "expect": "At 3 diapers a day, the 210 days take 630 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "12500",
+    "400",
+    "18000",
+    "6"
+   ],
+   "expect": "At 6 diapers a day, the 97 days take 582 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "4100",
+    "130",
+    "6000",
+    "5"
+   ],
+   "expect": "At 5 diapers a day, the 103 days take 515 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "5500",
+    "190",
+    "8200",
+    "8"
+   ],
+   "expect": "At 8 diapers a day, the 100 days take 800 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "6800",
+    "220",
+    "11000",
+    "7"
+   ],
+   "expect": "At 7 diapers a day, the 134 days take 938 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "2000",
+    "60",
+    "3500",
+    "10"
+   ],
+   "expect": "At 10 diapers a day, the 175 days take 1750 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "10500",
+    "350",
+    "15000",
+    "4"
+   ],
+   "expect": "At 4 diapers a day, the 90 days take 360 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "8800",
+    "275",
+    "14000",
+    "6"
+   ],
+   "expect": "At 6 diapers a day, the 133 days take 798 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "3000",
+    "80",
+    "4500",
+    "1"
+   ],
+   "expect": "At 1 diaper a day, the 132 days take 132 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "9500",
+    "260",
+    "15000",
+    "13"
+   ],
+   "expect": "At 13 diapers a day, the 149 days take 1937 diapers."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "7000",
+    "140",
+    "9100",
+    "8"
+   ],
+   "expect": "At 8 diapers a day, the 105 days take 840 diapers."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "6993",
+    "7",
+    "7000",
+    "1",
+    "44",
+    "1150"
+   ],
+   "expect": "The 7 diapers make 1 pack of 44, the last pack holding 7 diapers, costing $11.50, $1.64 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "6990",
+    "70",
+    "7000",
+    "8",
+    "44",
+    "1150"
+   ],
+   "expect": "The 8 diapers make 1 pack of 44, the last pack holding 8 diapers, costing $11.50, $1.44 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "3400",
+    "180",
+    "5200",
+    "6",
+    "30",
+    "899"
+   ],
+   "expect": "The 420 diapers make 14 packs of 30, the last pack holding 30 diapers, costing $125.86, $0.30 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "4500",
+    "200",
+    "9000",
+    "10",
+    "36",
+    "1049"
+   ],
+   "expect": "The 1580 diapers make 44 packs of 36, the last pack holding 32 diapers, costing $461.56, $0.29 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "8000",
+    "250",
+    "13000",
+    "7",
+    "50",
+    "1399"
+   ],
+   "expect": "The 980 diapers make 20 packs of 50, the last pack holding 30 diapers, costing $279.80, $0.29 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "11000",
+    "300",
+    "17000",
+    "12",
+    "80",
+    "2199"
+   ],
+   "expect": "The 1680 diapers make 21 packs of 80, the last pack holding 80 diapers, costing $461.79, $0.27 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "2900",
+    "90",
+    "3400",
+    "4",
+    "24",
+    "649"
+   ],
+   "expect": "The 156 diapers make 7 packs of 24, the last pack holding 12 diapers, costing $45.43, $0.29 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "5000",
+    "167",
+    "6400",
+    "8",
+    "44",
+    "999"
+   ],
+   "expect": "The 472 diapers make 11 packs of 44, the last pack holding 32 diapers, costing $109.89, $0.23 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "7200",
+    "165",
+    "10000",
+    "30",
+    "96",
+    "1799"
+   ],
+   "expect": "The 3570 diapers make 38 packs of 96, the last pack holding 18 diapers, costing $683.62, $0.19 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "9200",
+    "210",
+    "12500",
+    "11",
+    "40",
+    "1249"
+   ],
+   "expect": "The 1210 diapers make 31 packs of 40, the last pack holding 10 diapers, costing $387.19, $0.32 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "3000",
+    "100",
+    "5000",
+    "2",
+    "20",
+    "499"
+   ],
+   "expect": "The 280 diapers make 14 packs of 20, the last pack holding 20 diapers, costing $69.86, $0.25 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "6000",
+    "175",
+    "9500",
+    "9",
+    "48",
+    "1149"
+   ],
+   "expect": "The 1260 diapers make 27 packs of 48, the last pack holding 12 diapers, costing $310.23, $0.25 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "1500",
+    "50",
+    "3000",
+    "3",
+    "28",
+    "779"
+   ],
+   "expect": "The 630 diapers make 23 packs of 28, the last pack holding 14 diapers, costing $179.17, $0.28 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "12500",
+    "400",
+    "18000",
+    "6",
+    "60",
+    "1549"
+   ],
+   "expect": "The 582 diapers make 10 packs of 60, the last pack holding 42 diapers, costing $154.90, $0.27 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "4100",
+    "130",
+    "6000",
+    "5",
+    "32",
+    "925"
+   ],
+   "expect": "The 515 diapers make 17 packs of 32, the last pack holding 3 diapers, costing $157.25, $0.31 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "5500",
+    "190",
+    "8200",
+    "8",
+    "44",
+    "1075"
+   ],
+   "expect": "The 800 diapers make 19 packs of 44, the last pack holding 8 diapers, costing $204.25, $0.26 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "6800",
+    "220",
+    "11000",
+    "7",
+    "52",
+    "1325"
+   ],
+   "expect": "The 938 diapers make 19 packs of 52, the last pack holding 2 diapers, costing $251.75, $0.27 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "2000",
+    "60",
+    "3500",
+    "10",
+    "40",
+    "1125"
+   ],
+   "expect": "The 1750 diapers make 44 packs of 40, the last pack holding 30 diapers, costing $495.00, $0.28 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "10500",
+    "350",
+    "15000",
+    "4",
+    "36",
+    "989"
+   ],
+   "expect": "The 360 diapers make 10 packs of 36, the last pack holding 36 diapers, costing $98.90, $0.27 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "8800",
+    "275",
+    "14000",
+    "6",
+    "46",
+    "1199"
+   ],
+   "expect": "The 798 diapers make 18 packs of 46, the last pack holding 16 diapers, costing $215.82, $0.27 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "3000",
+    "80",
+    "4500",
+    "1",
+    "1",
+    "99999"
+   ],
+   "expect": "The 132 diapers make 132 packs of 1, the last pack holding 1 diaper, costing $131998.68, $999.99 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "9500",
+    "260",
+    "15000",
+    "13",
+    "64",
+    "1450"
+   ],
+   "expect": "The 1937 diapers make 31 packs of 64, the last pack holding 17 diapers, costing $449.50, $0.23 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "7000",
+    "140",
+    "9100",
+    "8",
+    "44",
+    "1"
+   ],
+   "expect": "The 840 diapers make 20 packs of 44, the last pack holding 4 diapers, costing $0.20, $0.00 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "6990",
+    "10",
+    "7000",
+    "9",
+    "200",
+    "1500"
+   ],
+   "expect": "The 63 diapers make 1 pack of 200, the last pack holding 63 diapers, costing $15.00, $0.24 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "6200",
+    "150",
+    "8000",
+    "8",
+    "44",
+    "1150"
+   ],
+   "expect": "The 672 diapers make 16 packs of 44, the last pack holding 12 diapers, costing $184.00, $0.27 a diaper."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2026-10-24",
+    "6993",
+    "7",
+    "7000"
+   ],
+   "expect": "Starting 2026-10-24, the size line lands on 2026-10-31, a Saturday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2026-10-24",
+    "6990",
+    "70",
+    "7000"
+   ],
+   "expect": "Starting 2026-10-24, the size line lands on 2026-10-25, a Sunday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2026-02-28",
+    "3400",
+    "180",
+    "5200"
+   ],
+   "expect": "Starting 2026-02-28, the size line lands on 2026-05-09, a Saturday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2028-02-28",
+    "4500",
+    "200",
+    "9000"
+   ],
+   "expect": "Starting 2028-02-28, the size line lands on 2028-08-04, a Friday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2026-12-31",
+    "8000",
+    "250",
+    "13000"
+   ],
+   "expect": "Starting 2026-12-31, the size line lands on 2027-05-20, a Thursday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2027-01-01",
+    "11000",
+    "300",
+    "17000"
+   ],
+   "expect": "Starting 2027-01-01, the size line lands on 2027-05-21, a Friday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2030-06-15",
+    "2900",
+    "90",
+    "3400"
+   ],
+   "expect": "Starting 2030-06-15, the size line lands on 2030-07-24, a Wednesday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2044-01-15",
+    "5000",
+    "167",
+    "6400"
+   ],
+   "expect": "Starting 2044-01-15, the size line lands on 2044-03-14, a Monday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2026-10-24",
+    "7200",
+    "165",
+    "10000"
+   ],
+   "expect": "Starting 2026-10-24, the size line lands on 2027-02-20, a Saturday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2099-12-01",
+    "9200",
+    "210",
+    "12500"
+   ],
+   "expect": "Starting 2099-12-01, the size line lands on 2100-03-21, a Sunday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2026-10-24",
+    "3000",
+    "100",
+    "5000"
+   ],
+   "expect": "Starting 2026-10-24, the size line lands on 2027-03-13, a Saturday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2031-03-20",
+    "6000",
+    "175",
+    "9500"
+   ],
+   "expect": "Starting 2031-03-20, the size line lands on 2031-08-07, a Thursday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2026-10-24",
+    "1500",
+    "50",
+    "3000"
+   ],
+   "expect": "Starting 2026-10-24, the size line lands on 2027-05-22, a Saturday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2040-07-04",
+    "12500",
+    "400",
+    "18000"
+   ],
+   "expect": "Starting 2040-07-04, the size line lands on 2040-10-09, a Tuesday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2026-10-24",
+    "4100",
+    "130",
+    "6000"
+   ],
+   "expect": "Starting 2026-10-24, the size line lands on 2027-02-04, a Thursday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2035-11-11",
+    "5500",
+    "190",
+    "8200"
+   ],
+   "expect": "Starting 2035-11-11, the size line lands on 2036-02-19, a Tuesday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2026-10-24",
+    "6800",
+    "220",
+    "11000"
+   ],
+   "expect": "Starting 2026-10-24, the size line lands on 2027-03-07, a Sunday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2029-09-09",
+    "2000",
+    "60",
+    "3500"
+   ],
+   "expect": "Starting 2029-09-09, the size line lands on 2030-03-03, a Sunday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2026-10-24",
+    "10500",
+    "350",
+    "15000"
+   ],
+   "expect": "Starting 2026-10-24, the size line lands on 2027-01-22, a Friday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2050-05-25",
+    "8800",
+    "275",
+    "14000"
+   ],
+   "expect": "Starting 2050-05-25, the size line lands on 2050-10-05, a Wednesday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2026-10-24",
+    "3000",
+    "80",
+    "4500"
+   ],
+   "expect": "Starting 2026-10-24, the size line lands on 2027-03-05, a Friday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2033-08-08",
+    "9500",
+    "260",
+    "15000"
+   ],
+   "expect": "Starting 2033-08-08, the size line lands on 2034-01-04, a Wednesday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2026-10-24",
+    "7000",
+    "140",
+    "9100"
+   ],
+   "expect": "Starting 2026-10-24, the size line lands on 2027-02-06, a Saturday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2100-12-31",
+    "6993",
+    "7",
+    "7000"
+   ],
+   "expect": "Starting 2100-12-31, the size line lands on 2101-01-07, a Friday."
+  },
+  {
+   "fn": "date",
+   "args": [
+    "2000-01-01",
+    "6990",
+    "10",
+    "7000"
+   ],
+   "expect": "Starting 2000-01-01, the size line lands on 2000-01-08, a Saturday."
+  },
+  {
+   "fn": "diapers",
+   "args": [
+    "6990",
+    "70",
+    "7000",
+    "1"
+   ],
+   "expect": "At 1 diaper a day, the 1 day takes 1 diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "6990",
+    "70",
+    "7000",
+    "1",
+    "44",
+    "1150"
+   ],
+   "expect": "The 1 diaper makes 1 pack of 44, the last pack holding 1 diaper, costing $11.50, $11.50 a diaper."
+  },
+  {
+   "fn": "packs",
+   "args": [
+    "3400",
+    "180",
+    "5200",
+    "5",
+    "21",
+    "899"
+   ],
+   "expect": "The 350 diapers make 17 packs of 21, the last pack holding 14 diapers, costing $152.83, $0.44 a diaper."
+  }
+ ],
+ "errors": [
+  [
+   "size",
+   [
+    "999",
+    "150",
+    "8000"
+   ]
+  ],
+  [
+   "size",
+   [
+    "20001",
+    "150",
+    "8000"
+   ]
+  ],
+  [
+   "size",
+   [
+    "6200",
+    "0",
+    "8000"
+   ]
+  ],
+  [
+   "size",
+   [
+    "6200",
+    "1001",
+    "8000"
+   ]
+  ],
+  [
+   "size",
+   [
+    "6200",
+    "150",
+    "1000"
+   ]
+  ],
+  [
+   "size",
+   [
+    "6200",
+    "150",
+    "30001"
+   ]
+  ],
+  [
+   "size",
+   [
+    "8000",
+    "150",
+    "8000"
+   ]
+  ],
+  [
+   "size",
+   [
+    "9000",
+    "150",
+    "8000"
+   ]
+  ],
+  [
+   "diapers",
+   [
+    "6200",
+    "150",
+    "8000",
+    "0"
+   ]
+  ],
+  [
+   "diapers",
+   [
+    "6200",
+    "150",
+    "8000",
+    "31"
+   ]
+  ],
+  [
+   "packs",
+   [
+    "6200",
+    "150",
+    "8000",
+    "8",
+    "0",
+    "1150"
+   ]
+  ],
+  [
+   "packs",
+   [
+    "6200",
+    "150",
+    "8000",
+    "8",
+    "201",
+    "1150"
+   ]
+  ],
+  [
+   "packs",
+   [
+    "6200",
+    "150",
+    "8000",
+    "8",
+    "44",
+    "0"
+   ]
+  ],
+  [
+   "packs",
+   [
+    "6200",
+    "150",
+    "8000",
+    "8",
+    "44",
+    "100000"
+   ]
+  ],
+  [
+   "date",
+   [
+    "2026-02-30",
+    "6200",
+    "150",
+    "8000"
+   ]
+  ],
+  [
+   "date",
+   [
+    "2026-13-01",
+    "6200",
+    "150",
+    "8000"
+   ]
+  ],
+  [
+   "date",
+   [
+    "1999-12-31",
+    "6200",
+    "150",
+    "8000"
+   ]
+  ],
+  [
+   "date",
+   [
+    "2101-01-01",
+    "6200",
+    "150",
+    "8000"
+   ]
+  ],
+  [
+   "size",
+   [
+    "62x0",
+    "150",
+    "8000"
+   ]
+  ],
+  [
+   "diapers",
+   [
+    "6200",
+    "150",
+    "8000",
+    ""
+   ]
+  ]
+ ]
+}
